@@ -1,0 +1,406 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.root {
+  --black: rgb(0, 0, 0);
+  --gray: rgb(56, 51, 51);
+  --white: rgb(255, 255, 255);
+  --fcolor: rgb(58, 55, 41);
+}
+.Footer {
+ 
+  margin-top: 15px;
+  width: 100%;
+  height: 430px;
+  display: grid;
+  grid-template-rows: 2;
+  place-items: center;
+}
+.Con {
+  border: 2px solid var(--copper);
+  padding: 15px;
+  margin-top: -9px;
+  width: 80%;
+  height: 15px;
+  display: grid;
+  height: 203px;
+  
+  border-radius: 10px;
+}
+.IN_One {
+  width: 100%;
+  display: flex;
+ 
+}
+.IN_One h3 {
+  padding: 10px;
+  margin-left: 5px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    var(--black),
+    var(--gray),
+    var(--white)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.IN_One button {
+  padding: 10px;
+  margin: 5px;
+  background-image: linear-gradient(to right,var(--black),var(--gray),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px 0px 10px 0px;
+  border: 1px solid gray;
+}
+.IN_One button:hover{
+  background-image: linear-gradient(to right,blue,purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.IN_Two {
+  margin-top: -5px;
+  width: 100%;
+  display: flex;
+
+}
+.IN_Two h6:hover{
+  background-image: linear-gradient(to right,blue,purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.Con p {
+  width: 100%;
+  margin-top: -3px;
+  
+  background-image: linear-gradient(
+    to right,
+    var(--black),
+    var(--gray),
+    var(--white)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Con h6 {
+  text-align: center;
+  margin-top: 12px;
+  
+  width: 30%;
+  background-image: linear-gradient(
+    to right,
+    var(--black),
+    var(--gray),
+    var(--white)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.F_Content {
+  width: 100%;
+  height: 310px;
+  margin-top: 10px;
+  display: flex;
+  grid-template-columns: 4;
+}
+.F_Content .F_One {
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(67, 65, 61);
+}
+.F_Content .F_Two {
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(67, 65, 61);
+}
+.F_Content .F_Three {
+  text-align: left;
+  padding: 10px;
+  background-color:rgb(67, 65, 61);
+}
+.F_Content .F_Four {
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(67, 65, 61);
+}
+
+.F_One p{
+  font-size: 1.8rem;
+  background-image: linear-gradient(
+    to right,
+    var(--black),
+     var(--white)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style:initial;
+  font-weight: 600;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation: FO-BA 2s ease-in-out infinite alternate-reverse both
+}
+
+  @keyframes FO-BA{
+
+    0%{
+        transform: translateY(23px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+  
+
+.F_One p:hover{
+
+  background-image: linear-gradient(
+    to right,
+    var(--copper),
+     var(--black)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.F_Two ul{
+  background-color: transparent;
+}
+
+.F_Two ul li{
+  list-style: none;
+  line-height: 60px;
+  background-color: transparent;
+
+
+}
+.F_Two ul li .FC_one{
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.F_Two ul li .FC_one:hover{
+
+  background-image: linear-gradient(to right,var(--copper),var(--black));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.F_Two ul li .FC_two{
+
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.F_Two ul li .FC_two:hover{
+
+  background-image: linear-gradient(to right,var(--copper),var(--black));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+.F_Two ul li .FC_three{
+
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.F_Two ul li .FC_three:hover{
+
+  background-image: linear-gradient(to right,var(--copper),var(--black));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.F_Two ul li .FC_four{
+
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.F_Two ul li .FC_four:hover{
+
+  background-image: linear-gradient(to right,var(--copper),var(--black));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .F_Two #imp_links{
+  background-color: transparent;
+  font-size: 15px;
+   color: black;
+   font-weight: 400;
+   margin-left: 20px;
+   font-style:normal;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+/*design social media icon */
+ .F_Three{
+  justify-content: center;
+  align-items: center;
+ }
+
+.F_Three #S_Media{
+  background-color: transparent;
+  font-size: 15px;
+   color: black;
+   text-align: center;
+   margin-left: 20px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   cursor: pointer;
+}
+.F_Three ul{
+
+  background-color: transparent;
+ 
+}
+
+.F_Three ul li{
+  list-style: none;
+  background-color: transparent;
+  line-height: 45px;
+  text-align:center;
+  cursor: pointer;
+
+}
+
+ .facebook{
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.facebook:hover{
+  color: var(--copper);
+}
+
+.instagram{
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.1rem;
+  cursor: pointer;
+ 
+}
+.instagram:hover{
+
+  color: var(--copper);
+}
+
+
+.youtube{
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem; 
+  cursor: pointer;
+ 
+}
+.youtube:hover{
+
+  color: var(--copper);
+}
+
+.twitter{
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+.twitter:hover{
+
+  color: var(--copper);
+}
+
+
+.email{
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--black),var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  cursor: pointer;
+
+}
+.email:hover{
+
+  color: var(--copper);
+}
+
+.F_Four{
+  justify-content: center;
+  align-items:center;
+}
+.F_Four #V_Fav{
+  background-color: transparent;
+  font-size: 15px;
+   color: black;
+   text-align: center;
+   font-weight: 400;
+   font-style:normal;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   cursor: pointer;
+}
+
+.F_Four .WQRC{
+  width: 220px;
+  height: 200px;
+  background-color: transparent;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+
+/** CopyRight**/
+.Copyright{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+}
+.Copyright #C_Right{
+  text-align:center;
+  margin-top: 7px;
+  font-size:15px;
+  color: var(--copper);
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

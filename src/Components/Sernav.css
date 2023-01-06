@@ -1,0 +1,339 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.sernav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(20, 113, 150), purple);
+}
+.sernav p {
+  background-color: transparent;
+  color: white;
+  text-align: ceter;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.sernav p:hover {
+  background-image: linear-gradient(rgb(132, 1, 97), rgb(4, 0, 110));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav #ser-nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-decoration: none;
+}
+#ser-nav-ul li {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  gap: 5px;
+  margin-right: 30px;
+}
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+#ser-nav-ul li a {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+#ser-nav-ul li:hover {
+  text-decoration: underline;
+}
+
+#Photo_Section {
+  width: 100%;
+  background-color: transparent;
+}
+
+#photoimges {
+  width: 25%;
+  background-color: transparent;
+  overflow: hidden;
+  border: 1px solid white;
+}
+#photoimges:hover {
+  animation: pu alternate 1s ease-in-out;
+}
+
+@keyframes pu {
+  25% {
+    width: 20%;
+  }
+  50% {
+    width: 25%;
+  }
+}
+
+#Planner_Section {
+  width: 100%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+#planimges {
+  width: 25%;
+  background-color: transparent;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid white;
+}
+#planimges:hover {
+  animation: pu alternate 1s ease-in-out;
+}
+#Planner_Section h4 {
+  text-align: center;
+  background-color: transparent;
+  background-image: linear-gradient(to right, blue, rgb(145, 4, 145));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#Planner_Section p {
+  background-color: transparent;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+#Decoration_Section {
+  width: 100%;
+  background-color: transparent;
+}
+
+#decImages {
+  width: 25%;
+  background-color: transparent;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid white;
+}
+#decImages:hover {
+  animation: pu alternate 1s ease-in-out;
+}
+
+#Catering_Section {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 15px;
+}
+#catImages {
+  width: 25%;
+  background-color: transparent;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid white;
+}
+#catImages:hover {
+  animation: pu alternate 1s ease-in-out;
+}
+#Album_Section {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+#Album_Section #album-heading {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, blue, rgb(145, 4, 145));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 800;
+}
+#Album_Section strong {
+  background-color: transparent;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: rgb(2, 2, 2);
+}
+
+#Album_Section #album-para {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+#imgone {
+  width: 100%;
+  background-color: white;
+}
+#abmain {
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+#abmain .abone {
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.abone img {
+  border: 1px solid black;
+}
+#abmain .abtwo {
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.abtwo img {
+  border: 1px solid black;
+}
+#Video_Section {
+  position: relative;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+#Video_Section h4 {
+  background-image: linear-gradient(blue, rgb(145, 4, 145));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+}
+#Video_Section h5 {
+  background-color: transparent;
+  text-align: center;
+  color: white;
+}
+.Video-section-inner {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn1,
+.btn2 {
+  width: 100px;
+  background-color: transparent;
+}
+
+#leftarrow,
+#rightarrow {
+  width: 100px;
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: rgb(255, 2, 255);
+}
+#rightarrow:hover {
+  color: blue;
+}
+#leftarrow:hover {
+  color: blue;
+}
+#video-1 {
+  overflow: hidden;
+  padding: 10px;
+  width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#video-1 video {
+  border: 2px solid rgb(255, 0, 208);
+}
+#video-1 p {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+#video-2 {
+  overflow: hidden;
+  padding: 10px;
+  width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#video-2 video {
+  border: 2px solid rgb(255, 0, 208);
+}
+#video-2 p {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bolder;
+}
+#Go-Top {
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+#top {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.505);
+  color: rgb(255, 0, 255);
+  font-size: 2rem;
+}
+#top:hover {
+  background-color: rgba(255, 0, 255, 0.534);
+  color: blue;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.teamdiv{
+    width: 100%;
+    margin-top:55px;
+    background-color:transparent;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+.teamheading{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.teamheading h2{
+    position: absolute;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 3rem;
+    background-color: transparent;
+    color: var(--copper);
+}
+
+.teamheading h2{
+    animation:left-right 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes left-right{
+
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+@keyframes left-right{
+    
+    0%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}

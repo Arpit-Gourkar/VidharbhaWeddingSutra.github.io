@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ornage: rgb(248, 9, 9);
+  --white: white;
+  --green: rgb(2, 250, 2);
+}
+
+.Banner-parent {
+  margin-top: 60px;
+  width: 100%;
+  height: 670px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--copper);
+  border-radius: 30px;
+}
+
+.banner-one,
+.banner-two,
+.banner-three {
+  width: 80%;
+  height: 600px;
+  /** padding: 15px;**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.Banner-parent img {
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  margin-top: -80px;
+  padding: 10px;
+}
+.Banner-parent h4 {
+  width: 40%;
+  text-align: center;
+  position: absolute;
+  margin-top: 460px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--copper);
+}
+.Banner-parent h4:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--orange),
+    var(--white),
+    var(--green)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Banner-parent p {
+  color: var(--copper);
+  background-color: transparent;
+  margin-top: 580px;
+  text-align: center;
+
+}
+
+.indicator {
+  width: 50%;
+  position: absolute;
+  bottom: -3%;
+  text-align: center;
+  
+}
+
+span {
+  
+  align-items:center;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+span:hover {
+  background-color: var(--copper);
+  transition: 0.6s;
+}

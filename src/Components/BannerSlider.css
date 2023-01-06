@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.BlogContainer{
+    width: 100%;
+
+}
+.BI_Slider{
+    width: 100%;
+    height: 450px;
+    min-width: 350px;
+     background-size: 100% 100%;
+    background-image: url("../Images/blogimagebanner1.jpg");
+    animation:changeblog 30s linear infinite;
+}
+
+@keyframes changeblog {
+    0% {
+      background-image: url("../Images/blogimagebanner2.jpg");
+    }
+    25% {
+      background-image: url("../Images/blogimagebanner3.jpg");
+    }
+    50% {
+      background-image: url("../Images/blogimagebanner4.jpg");
+    }
+    75% {
+      background-image: url("../Images/blogimagebanner5.jpg");
+    }
+    100% {
+      background-image: url("../Images/blogimagebanner1.jpg");
+    }
+  }
+/** blog one **/
+  .Blog_Item{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display:block;
+  }
+
+  .Bitem_One{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Bitem_One .Item_one{
+    width: 50%;
+    height: 440px;
+    padding: 20px;
+  }
+  
+  .Bitem_One .Item_one:hover{
+    animation: pop-up 2s ease-in infinite alternate; 
+  }
+
+  @keyframes pop-up{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 50%;
+    }
+}
+  .Bitem_One .Blog_description{
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.098);
+    justify-content: center;
+    align-items: center;
+  }
+  .Blog_description h4{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color:var(--copper);
+  }
+  .Blog_description p{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+/* blog Two **/
+  .Bitem_two{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bitem_two .Item_two{
+    width: 50%;
+    height: 440px;
+    padding: 20px;
+  }
+  
+  .Bitem_two .Item_two:hover{
+    animation: pop-up 2s ease-in infinite alternate; 
+  }
+
+  @keyframes pop-up{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 50%;
+    }
+}
+  .Bitem_two .Blog_description_two{
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.098);
+    justify-content: center;
+    align-items: center;
+  }
+  .Blog_description_two h4{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color:var(--copper);
+  }
+  .Blog_description_two p{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+  /** blog three **/
+  .Bitem_three{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bitem_three .Item_three{
+    width: 50%;
+    height: 440px;
+    padding: 20px;
+  }
+  
+  .Bitem_three .Item_three:hover{
+    animation: pop-up 2s ease-in infinite alternate; 
+  }
+
+  @keyframes pop-up{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 50%;
+    }
+}
+  .Bitem_three .Blog_description_three{
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.098);
+    justify-content: center;
+    align-items: center;
+  }
+  .Blog_description_three h4{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color:var(--copper);
+  }
+  .Blog_description_three p{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  /** blog four **/
+  .Bitem_four{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bitem_four .Item_four{
+    width: 50%;
+    height: 440px;
+    padding: 20px;
+  }
+  
+  .Bitem_four .Item_four:hover{
+    animation: pop-up 2s ease-in infinite alternate; 
+  }
+
+  @keyframes pop-up{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 50%;
+    }
+}
+  .Bitem_four .Blog_description_four{
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.098);
+    justify-content: center;
+    align-items: center;
+  }
+  .Blog_description_four h4{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color:var(--copper);
+  }
+  .Blog_description_four p{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  
+
+  /** blog five **/
+  .Bitem_five{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bitem_five .Item_five{
+    width: 50%;
+    height: 440px;
+    padding: 20px;
+  }
+
+  .Bitem_five .Item_five:hover{
+    animation: pop-up 2s ease-in infinite alternate; 
+  }
+
+  @keyframes pop-up{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 50%;
+    }
+}
+  .Bitem_five .Blog_description_five{
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.098);
+    justify-content: center;
+    align-items: center;
+  }
+  .Blog_description_five h4{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color:var(--copper);
+  }
+  .Blog_description_five p{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }

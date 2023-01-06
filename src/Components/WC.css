@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: rgb(255, 102, 0);
+  --white: rgb(255, 255, 255);
+  --green: rgb(6, 123, 6);
+}
+
+.WE_Container {
+  background-color: transparent;
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: 15cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WE_Container .WE_Heading {
+  position: absolute;
+  background-color: transparent;
+  margin-top: -520px;
+  width: 100%;
+  height: 5cm;
+  justify-content: center;
+  align-items: center;
+}
+.WE_Heading img {
+  background-color: transparent;
+  width: 80%;
+  height: 73px;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.WE_Heading h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 5px;
+
+  background-image: linear-gradient(
+    to right,
+    var(--orange),
+    var(--white),
+    var(--green)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Category_images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  height: 500px;
+  background-color: transparent;
+
+  margin-top: 110px;
+}
+.ser_1,
+.ser_2,
+.ser_3 {
+  margin-top: -10px;
+  width: 25%;
+  position: relative;
+}
+.ser_4 {
+  margin-top: -23px;
+  width: 100%;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+.ser_heading {
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.ser_1,
+.ser_2,
+.ser_3,
+#decoration,
+#planner,
+#Pt {
+  padding: 5px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.ser_4 #catering {
+  padding: 5px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+.ser_1 .decoration:hover {
+  animation: pop-uppp 1s ease-in infinite alternate;
+}
+@keyframes pop-uppp {
+  from {
+    width: 90%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.ser_2 .planner:hover {
+  animation: pop-uppp 1s ease-in infinite alternate;
+}
+@keyframes pop-uppp {
+  from {
+    width: 90%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.ser_3 .PT:hover {
+  animation: pop-upp 1s ease-in infinite alternate;
+}
+@keyframes pop-upp {
+  from {
+    width: 90%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.ser_4 .catering:hover {
+  animation: pop-upp 1s ease-in infinite alternate;
+}
+@keyframes pop-upp {
+  from {
+    width: 90%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.ser_1,
+.ser_2,
+.ser_3,
+.ser_4,
+.ser_heading {
+  width: 100%;
+}
+
+.ser_1,
+.ser_2,
+.ser_3,
+.h6 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--copper);
+}
+
+.ser_4 .exploreMore {
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  margin-top: -10px;
+}
+.ser_4 .exploreMore:hover {
+  text-decoration: underline;
+  color: var(--copper);
+}

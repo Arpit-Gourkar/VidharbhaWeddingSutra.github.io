@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "josht", sans-serif;
+}
+
+:root {
+  --pink: rgb(223, 19, 179);
+  --black: rgba(5, 4, 4, 0.897);
+  --neon: rgb(53, 236, 17);
+  --yellow: rgb(252, 252, 6);
+  --gray: rgb(54, 50, 50);
+  --blue: rgb(22, 6, 249);
+  --copperdark: rgb(61, 38, 17);
+  --copper: rgb(184, 126, 51);
+  --orange: rgb(243, 94, 7);
+  --green: rgb(46, 196, 0);
+  --white: rgb(248, 243, 246);
+}
+
+.navbar {
+  width: 100%;
+  height: 4rem;
+}
+.container {
+  margin-top: -16px;
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+}
+.camera {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.camera .logo {
+  margin-top: 10px;
+  width: 100px;
+  height: 2.7rem;
+}
+.navbar button {
+  width: 50px;
+  height: 2rem;
+  margin-top: -8px;
+  padding-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.Ticon {
+  color: var(--copper);
+  font-size: 1.8rem;
+  align-items: center;
+}
+
+.collapse {
+  margin-left: 130px;
+  justify-content: center;
+}
+.collapse ul li .nav-link {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, var(--copper), var(--copperdark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 25px;
+  padding-left: 18px;
+  margin-bottom: -10px;
+}
+.collapse ul li .nav-link:hover {
+  background-image: linear-gradient(to right, var(--orange), var(--white));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}

@@ -1,0 +1,67 @@
+* {
+  width: 100;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.root {
+  --orange: rgb(255, 123, 0);
+  --white: white;
+  --green: rgb(7, 167, 7);
+}
+
+.Ex_Img_Container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.img_Content {
+  margin-top: 15px;
+  width: 60%;
+  height: 100px;
+  display: grid;
+  place-items: center;
+}
+.img_Content .Ex_img_Heading {
+  text-align: center;
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to right,
+    var(--orange),
+    var(--white),
+    var(--green)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img_Content .Ex_img_paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--copper);
+}
+.Img_Slider {
+  width: 60%;
+  height: 600px;
+  margin-top: 25px;
+  background-image: url("../Images/Photographs/one.jpg");
+  background-size: 100% 100%;
+  animation: changeImage 30s linear infinite;
+}
+@keyframes changeImage {
+  0% {
+    background-image: url("../Images/Photographs/seven.jpg");
+  }
+  25% {
+    background-image: url("../Images/Photographs/eight.jpg");
+  }
+  50% {
+    background-image: url("../Images/Photographs/six.jpg");
+  }
+  75% {
+    background-image: url("../Images/Photographs/three.jpg");
+  }
+  100% {
+    background-image: url("../Images/planner.jpeg");
+  }
+}
